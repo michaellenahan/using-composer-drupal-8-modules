@@ -48,8 +48,26 @@
 						<br>
 						Drupal Developer at <a href="https://erdfisch.de/">erdfisch</a> in Heidelberg, Germany
 						<br>
-						michaellenahan on <a href="https://www.drupal.org/u/michaellenahan">drupal.org</a> and <a href="https://github.com/michaellenahan">twitter</a>
+						michaellenahan on <a href="https://www.drupal.org/u/michaellenahan">drupal.org</a> and <a href="https://github.com/michaellenahan">github</a>
+						<br>
+						<a href="https://twitter.com/mcaleaa">@mcaleaa</a> on twitter
 					</p>
+				</section>
+
+				<section>
+					<div>The slides are here: github.com/michaellenahan/using-composer-drupal-8-modules</div>
+					<img width="800" src="images/talk-slides-github.png" />
+					<aside class="notes">
+						Feel free to re-use these slides!
+					</aside>
+				</section>
+
+				<section>
+					<h2>These slides were created using reveal.js</h2>
+					<img height="400" src="images/talk-slides-hakimel.png" />
+					<img height="400" src="images/talk-slides-code.png" />
+					<aside class="notes">
+					</aside>
 				</section>
 
 				<section>
@@ -57,7 +75,7 @@
 					<aside class="notes">
 					Aim of this talk: show you how to use composer packages in your own modules.
 					<br>
-					Level: beginner's level.
+					Level: BASIC level tutorial introducing composer.
 					<br>
 					It is a step-by-step guide to:
 					<br>
@@ -69,46 +87,97 @@
 					</aside>
 				</section>
 
+				<!-- What is composer -->
+				<!-- It's a command-line tool -->
+				<!-- in drupal we have drush -->
+
+				<!-- What is packagist -->
+				<!-- it is the default package repository -->
+				<!-- in drupal we have drupal.org -->
+
+				<!-- Pictures of creators of composer -->
+
+				<!-- What does composer look like in Drupal? -->
+
 				<section>
-					<h1>Use Composer in your own modules</h1>
+					<h2>Jordi Boggiano, December 2011</h2>
+					<img src="images/composer-jordi-boggiano-what-is-composer.png">
+					<br>
+					<img src="images/composer-jordi-boggiano-what-is-packagist.png">
+					<br>
+					<img src="images/composer-jordi-boggiano-drupal-typo3.png">
 					<aside class="notes">
-					Aim of this talk: show you how to use composer packages in your own modules.
+					Composer was created by:
 					<br>
-					Level: beginner's level.
+					Nils Adermann from Germany
+					https://twitter.com/naderman
 					<br>
-					It is a step-by-step guide to:
-					<br>
-					- what composer is.
-					<br>
-					- what packagist is.
-					<br>
-					- and how you can use these things in drupal.
+					Jordi Boggiano from Belgium
+					https://twitter.com/seldaek
 					</aside>
 				</section>
-<!-- 				<section>
-					<h2>OUTLINE</h2>
-					<p>
-- What is Composer?
-- Why?
-- color-extractor example
-- addressfield example
-- commonmark example
-- ldap example
-					</p>
+
+				<!-- Color extractor example -->
+
+				<!-- TODO Screenshot of league of packages -->
+
+				<section>
+					<h2>Exploring packagist</h2>
+					<p>... and how to find good packages</p>
 				</section>
- -->
+
+				<!-- TODO Screenshot of search by popularity -->
+				<!-- Don't forget: this is exactly what we do on drupal.org -->
+
+				<section>
+				<h2>thephpleague.com</h2>
+				<img src="images/league.png">
+				</section>
+
+				<section>
+				<h2>thephpleague.com</h2>
+				<img src="images/league-our-packages.png">
+				</section>
+
+				<!-- https://github.com/thephpleague/color-extractor -->
+
 				<section>
 					<h2>Color extractor example</h2>
-					<p>
-screenshot of packagist showing color-extractor
-					</p>
+					<img src="images/color-extractor-packagist.png">
 				</section>
 
+				<!-- Show code example in github -->
 				<section>
-					<h2>Color extractor in PHP</h2>
-					<small>Go into a projectroot directory and run this command:</small>
+					<h2>color-extractor on github</h2>
+					<img src="images/color-extractor-github-code-example.png">
+					<!-- This code is PHP -->
+					<!-- This code is *not* Drupal code -->
+					<aside class="notes">
+					Look at this beautiful documentation!
 					<br>
-					<small>composer require "league/color-extractor"</small>
+					Look at this beautiful code!
+					<br>
+					Take this code. Make it yours.
+					<br>
+					Fill it with your own ideas.
+					</aside>
+				</section>
+
+				<!-- TODO Need a picture here of the final product -->
+				<section>
+					<img src="images/color-extractor-php-application.png">
+				</section>
+
+				<!-- That's what we will build now! -->
+
+				<!-- TODO Update this screenshot -->
+				<!-- It was taken on the train without internet -->
+				<!-- Although: this screenshot may be useful to demonstrate what composer is trying to do - contact packagist.org -->
+				<!-- Maybe make a first slide with the yellow bit blacked out, an then with the yellow bit in -->
+
+				<section>
+					<p>Go into any directory you want and run this command:</p>
+					<p>composer require "league/color-extractor"</p>
 					<img src="images/color-extractor-php-composer-require.png" />
 				</section>
 
@@ -131,15 +200,23 @@ screenshot of packagist showing color-extractor
 					<p class="fragment">smile and take a moment to admire the beautiful simplicity of what you just witnessed</p>
 				</section>
 
+				<!-- Another slide to show beauty of: -->
+				<!-- composer require "league/color-extractor" -->
+				<!-- ... and the resulting composer.json -->
+
+				<!-- TODO pep this screenshot up with some arrows -->
 				<section>
-					<h2>Color extractor in PHP</h2>
+					<!-- <h2>Color extractor in PHP</h2> -->
 					<small>composer.lock file</small>
+					<img src="images/composer-lock-file.png">
 				</section>
 
 				<section>
-					<h2>Color extractor in PHP</h2>
-					<small>vendor directory</small>
+					<p>Your vendor directory has the code from the package</p>
+					<img src="images/color-extractor-php-vendor-dir.png">
 				</section>
+
+				<!-- So let's go build something -->
 
 				<section>
 					<h2>Color extractor in Drupal 8</h2>
