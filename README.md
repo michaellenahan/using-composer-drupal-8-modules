@@ -8,4 +8,6 @@ The slides were created using [reveal.js](https://github.com/hakimel/reveal.js).
 
 To get started, clone this repository and then open reveal.js/talk.html in your browser.
 
+Alternatively, you can try viewing the slides directly via htmlpreview: https://htmlpreview.github.io/?https://github.com/michaellenahan/using-composer-drupal-8-modules/blob/master/reveal.js/talk.html#/
+
 Please feel free to adapt and re-use these slides, they are freely licensed: see LICENSE.
