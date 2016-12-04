@@ -1,0 +1,805 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_dsag",
+				"_dsagnet_retrieve_company_nid"
+			],
+			[
+				"$out",
+				"$output_orig"
+			],
+			[
+				"true",
+				"TRUE"
+			],
+			[
+				"$res",
+				"$restaurant_guide_years"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/michael/workspace/d8-template-color-extractor/web/modules/custom/color_extractor/color_extractor.module",
+			"settings":
+			{
+				"buffer_size": 1750,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pi",
+		"selected_items":
+		[
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"toggl",
+				"View: Toggle Minimap"
+			],
+			[
+				"git blm",
+				"Git: Blame"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			]
+		],
+		"width": 539.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/michael/workspace/d8-template-color-extractor/web/modules/custom/color_extractor"
+	],
+	"file_history":
+	[
+		"/home/michael/workspace/talks/using-composer-drupal-8-modules/README.md",
+		"/home/michael/workspace/composer-color-extractor/composer.json",
+		"/home/michael/notes/encfs/2016-munich-using-composer-drupal-8-modules/reveal.js/css/theme/moon.css",
+		"/home/michael/notes/encfs/2016-munich-using-composer-drupal-8-modules/reveal.js/talk.html",
+		"/home/michael/notes/encfs/2016-munich-using-composer-drupal-8-modules/reveal.js/talk1.html",
+		"/home/michael/workspace/dsagnet/web/sites/all/scripts/1875.sh",
+		"/home/michael/workspace/dsagnet/web/sites/all/themes/dsagnet/.sass-cache/bf2b0b8c9181b07584d88a40d923acfb21fe99d6/_block--menu-menu-user-profile-menu.scssc",
+		"/home/michael/workspace/dsagnet/web/sites/all/themes/dsagnet/theme/menu_link.theme.inc",
+		"/home/michael/workspace/dsagnet/web/sites/all/themes/dsagnet/css/dsagnet.styles.css",
+		"/home/michael/workspace/dsagnet/web/sites/all/themes/dsagnet/sass/dsagnet.styles.scss",
+		"/home/michael/workspace/dsagnet/web/sites/all/themes/dsagnet/sass/components/menu/_block--menu-menu-user-profile-menu.scss",
+		"/home/michael/workspace/dsagnet/web/index.php",
+		"/home/michael/workspace/dsagnet/web/sites/all/modules/features/f_addressbook/f_addressbook.module",
+		"/home/michael/workspace/dsagnet/web/sites/all/modules/contrib/privatemsg/privatemsg.module",
+		"/home/michael/workspace/dsagnet/web/sites/all/modules/contrib/views/theme/views-view-list.tpl.php",
+		"/home/michael/workspace/dsagnet/web/sites/all/themes/dsagnet/templates/views-view-list--user-working-groups.tpl.php",
+		"/home/michael/workspace/dsagnet/web/sites/default/settings-local.php",
+		"/home/michael/workspace/dsagnet/web/sites/all/modules/features/f_administration_group/f_administration_group.module",
+		"/home/michael/workspace/dsagnet/web/includes/menu.inc",
+		"/home/michael/workspace/dsagnet/web/sites/all/themes/dsagnet/preprocess/menu_link.preprocess.inc",
+		"/home/michael/workspace/dsagnet/web/sites/all/themes/dsagnet/template.php",
+		"/home/michael/workspace/dsagnet/web/sites/all/themes/dsagnet/panels/layouts/multi_row/multi-row.tpl.php",
+		"/home/michael/workspace/dsagnet/web/sites/all/modules/custom/context_contextual_tabs/context_contextual_tabs.module",
+		"/home/michael/workspace/dsagnet/web/sites/all/modules/custom/ag_mail/ag_mail.module",
+		"/home/michael/Downloads/dbcd17 - newsletter code.txt",
+		"/home/michael/workspace/dsagnet/web/sites/all/scripts/1903.sh",
+		"/home/michael/projects/talks/index",
+		"/home/michael/projects/geranova/gaultmillau/import/2016-11-22-restaurant-json-generated-from-live/restaurant-2017-raw",
+		"/home/michael/projects/geranova/gaultmillau/import/2016-11-14-restaurantguide-golive/json/page_api_list_hotel_2017.json.2",
+		"/home/michael/projects/geranova/gaultmillau/import/2016-11-14-restaurantguide-golive/json/page_api_list_hotel_free_2017.json.2",
+		"/home/michael/projects/geranova/gaultmillau/import/2016-11-14-restaurantguide-golive/json/page_api_list_restaurant_2017.json.2",
+		"/home/michael/projects/geranova/gaultmillau/import/2016-11-14-restaurantguide-golive/json/page_api_list_restaurant_free_2017.json.2",
+		"/home/michael/projects/geranova/gaultmillau/import/2016-11-22-restaurant-json-generated-from-live/hotel-2017-raw",
+		"/home/michael/projects/geranova/gaultmillau/import/2016-11-22-restaurant-json-generated-from-live/hotel-2017-free-raw",
+		"/home/michael/projects/geranova/gaultmillau/import/2016-11-22-restaurant-json-generated-from-live/new",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/book_pages/verlag_csv_import/verlag_csv_import.module",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/contrib/examples/batch_example/batch_example.module",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/contrib/examples/batch_example/batch_example.module.dist",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/contrib/examples/batch_example/batch_example.module.new",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/contrib/examples/batch_example/batch_example.info",
+		"/home/michael/workspace/geranova/docroot/includes/module.inc",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/book_pages/verlag_csv_import/verlag_csv_bilder.inc",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/book_pages/verlag_modify/verlag_modify.module",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/book_pages/verlag_data/verlag_data.module",
+		"/home/michael/workspace/geranova/docroot/includes/database/database.inc",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/contrib/pathauto/pathauto.api.php",
+		"/home/michael/workspace/geranova/docroot/includes/token.inc",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/contrib/pathauto/pathauto.inc",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/zs_import/zs_import.module",
+		"/home/michael/workspace/geranova/docroot/sites/all/themes/gaultmillau/templates/views-view--auszeichungen.tpl.php",
+		"/home/michael/workspace/geranova/docroot/sites/all/themes/gaultmillau/templates/views-view-field--auszeichungen--field-auszeichnung-restaurant.tpl.php",
+		"/home/michael/projects/geranova/gaultmillau/json/2017-wein-2/wein.json",
+		"/home/michael/projects/geranova/gaultmillau/json/2017-wein-2/page_api_list_wein_2017-pretty-head.json",
+		"/home/michael/projects/geranova/gaultmillau/json/2017-wein-4/wein.json.pretty",
+		"/home/michael/workspace/geranova/docroot/sites/all/themes/gaultmillau/templates/views-view-unformatted--auszeichungen.tpl.php",
+		"/home/michael/projects/geranova/gaultmillau/json/wein/page_api_list_wein_2017.json",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/book_pages/verlag_json/verlag_json.drush.inc",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/book_pages/verlag_json/verlag_json.module",
+		"/home/michael/notes/vhd/vhd-2474",
+		"/home/michael/workspace/geranova/docroot/.htaccess",
+		"/home/michael/workspace/geranova/docroot/sites/all/themes/gaultmillau/template.php",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/book_pages/verlag_views/verlag_views.module",
+		"/home/michael/projects/geranova/gaultmillau/json/get-json.sh",
+		"/home/michael/workspace/geranova/docroot/sites/all/themes/gaultmillau/templates/block--formblock--user_register.tpl.php",
+		"/home/michael/workspace/geranova/docroot/sites/all/themes/gaultmillau/templates/node--19425.tpl.php",
+		"/home/michael/workspace/geranova/docroot/modules/field/modules/field_sql_storage/field_sql_storage.module",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/book_pages/verlag_codes/verlag_codes.module",
+		"/home/michael/workspace/geranova/docroot/themes/bartik/template.php",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/book_pages/verlag_redirect/verlag_redirect.module",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/contrib/backup_migrate/includes/destinations.ftp.inc",
+		"/home/michael/workspace/geranova/docroot/sites/all/themes/gaultmillau/templates/node--hotel.tpl.php",
+		"/home/michael/workspace/geranova/docroot/sites/all/themes/gaultmillau/templates/node--weingut.tpl.php",
+		"/home/michael/workspace/geranova/docroot/sites/all/themes/gaultmillau/templates/field.tpl.php",
+		"/home/michael/workspace/geranova/docroot/sites/all/themes/gaultmillau/templates/node--wein.tpl.php",
+		"/home/michael/workspace/geranova/docroot/sites/all/themes/gaultmillau/templates/node--restaurant.tpl.php",
+		"/home/michael/workspace/geranova/docroot/includes/bootstrap.inc",
+		"/home/michael/workspace/geranova/docroot/sites/gaultmillau.de/settings-local.php",
+		"/home/michael/workspace/geranova/docroot/sites/all/scripts/2455.sh",
+		"/home/michael/workspace/geranova/docroot/sites/all/scripts/2448.drush",
+		"/home/michael/workspace/geranova/docroot/sites/all/scripts/2448.sh",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/contrib/devel/devel.module",
+		"/home/michael/workspace/geranova/docroot/includes/file.inc",
+		"/home/michael/workspace/geranova/docroot/modules/system/system.module",
+		"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/book_pages/verlag_csv_import/verlag_csv_import_user.inc"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/michael/workspace/dsagnet/web/",
+			"/home/michael/workspace/dsagnet/web/sites/all/themes/dsagnet/sass",
+			"/home/michael/workspace/dsagnet/web/sites/all/modules/,-/home/michael/workspace/dsagnet/web/sites/all/modules/contrib/*",
+			"/home/michael/workspace/dsagnet/web/sites/all/modules/,-/home/michael/workspace/dsagnet/web/sites/all/modules/contrib/",
+			"/home/michael/workspace/dsagnet/web/sites/all/modules/",
+			"/home/michael/workspace/dsagnet/web/",
+			"/home/michael/workspace/dsagnet/web/sites/all/themes/dsagnet",
+			"",
+			"/home/michael/workspace/geranova/",
+			"/home/michael/workspace/geranova/docroot/sites/all/modules/custom",
+			"/home/michael/workspace/geranova/docroot/",
+			"/home/michael/workspace/geranova/docroot/sites/all/modules/custom",
+			"/home/michael/workspace/geranova/docroot/",
+			"/home/michael/workspace/geranova/docroot/sites/all/modules/custom",
+			"/home/michael/workspace/geranova/docroot/",
+			"/home/michael/workspace/geranova/docroot/sites/all/modules/custom",
+			"/home/michael/workspace/geranova/docroot/",
+			"/home/michael/workspace/geranova/docroot/sites/all/modules/custom",
+			"/home/michael/workspace/geranova/docroot/sites/all/modules/",
+			"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/book_pages",
+			"/home/michael/workspace/geranova/docroot/",
+			"/home/michael/workspace/geranova/docroot/sites/all/modules/custom",
+			"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/book_pages",
+			"/home/michael/workspace/geranova/docroot/sites/all/modules/custom",
+			"/home/michael/workspace/geranova/docroot/",
+			"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/",
+			"/home/michael/workspace/geranova/docroot/sites/all/modules/custom/book_pages/verlag_csv_import",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"code",
+			"zoom",
+			"transition",
+			"commonmark",
+			"commonmark-d8",
+			"img",
+			"img src",
+			"typical",
+			"transition",
+			"Einem Arbeitsgremium beitreten",
+			"Einem Arbeitsgremium beitreten »",
+			":hover",
+			"&:hover:",
+			"sourcemap",
+			"li",
+			"menu-user-profile-menu",
+			"working-group",
+			"user_working_groups",
+			"f_addressbook_firmenprofil_access",
+			"_dsagnet_retrieve_company_nid",
+			"company",
+			"og_membership",
+			"_dsagnet_retrieve_company_nid",
+			"$company",
+			"company_edit",
+			"\\t",
+			"  ",
+			"h3",
+			"menu-menu-user-profile-menu",
+			"profile-menu",
+			"menu-menu-user-profile-menu",
+			"h3",
+			":after",
+			"after",
+			"post",
+			"user_edit",
+			"firmenprofil",
+			"$user_name",
+			"'title' => 'Messages',",
+			"'Messages'",
+			"'My colleagues'",
+			"File Cart",
+			"My colleagues",
+			"Addressbook",
+			"menu_local_tasks",
+			"myaccount",
+			"useraccountmenu",
+			"Dummy-useraccountmenu",
+			"benutzer",
+			"user_profile_menu",
+			"block--menu-menu-user-profile-menu",
+			"block--menu-menu-user-profile-menu block--menu",
+			"meine-gruppen",
+			"_menu",
+			"dsagnet_theme_menu",
+			"dsag_theme_menu",
+			"jquery-once-1-processed",
+			"jquery-once",
+			"jquery-once-1-processed",
+			"views-view-list--user-working-groups",
+			"views_view_list__user_working_groups",
+			"row",
+			"My colleagues",
+			"\"http://gaultmillau.de/",
+			"\"http://gaultmillau.geranova/",
+			"field_bekommt_blaupause_online",
+			"field_app_kredit_vi_value",
+			"adr_region",
+			"write_csv_line",
+			"dd(",
+			"current",
+			"percentage",
+			"out of",
+			"_submit",
+			"vapi/bilder/import",
+			"YEARS",
+			"gampad",
+			"RESTAURANT",
+			"verlag_data_view_user_submit",
+			"admin/content/user_export",
+			"00",
+			"'00'",
+			"weine",
+			"weine/",
+			"wein/",
+			"path_save(",
+			"_path_update",
+			"wein_node",
+			"_form_alter",
+			"auszeichnung_restaurant",
+			"field_produkt_value",
+			"Keine Zuordnung",
+			"auszeichungen",
+			"auszeichnungen",
+			"views_pre_render",
+			"field_auszeichnung_gewichtung",
+			"bought_online",
+			"auszeichungen",
+			"_query_alter(",
+			"verlag_json_batch_submit",
+			"verlag_json_batch_execute",
+			"api/list/",
+			"Den vollständigen Eintrag",
+			"Den vollständigen Eintrag finden Sie im Gault&Millau Deutschland",
+			"page_2",
+			"traube_neu_value",
+			"bew_traube_neu_value",
+			"field_weingut_bew_traube_neu_value",
+			"$type == 'weingut'",
+			"field_weingut_bew_traube_neu_value",
+			"free",
+			"isFree",
+			"magazinwelt",
+			"wget",
+			"YYYY",
+			"2015",
+			"2016",
+			"error: product_year variable not set",
+			"'product_year'",
+			"$years",
+			"<<<<<<<",
+			">>>>>>>",
+			"$years",
+			"$restaurant_guide_years",
+			"$wine_guide_years",
+			"$years",
+			"/weinerzeuger",
+			"$years"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"  ",
+			"\\t",
+			"\"http://gaultmillau.de/",
+			"wget --no-cache",
+			"2010",
+			"2011",
+			"2012",
+			"2013",
+			"2014",
+			"YYYY",
+			"2015",
+			"$year",
+			"$ausgabe",
+			"$image_type"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/michael/workspace/d8-template-color-extractor/web/modules/custom/color_extractor/color_extractor.module",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1750,
+								1750
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 50,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 387.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "d8-color-extractor-example.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"demo",
+				"reveal.js/demo.html"
+			],
+			[
+				"talk.html",
+				"reveal.js/talk.html"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"dem",
+				"demo.html"
+			],
+			[
+				"talk",
+				"talk.html"
+			],
+			[
+				"talk1",
+				"talk1.html"
+			],
+			[
+				"css/theme/moon.css",
+				"css/theme/moon.css"
+			],
+			[
+				"talk.",
+				"talk.html"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"config.rb",
+				"web/sites/all/themes/dsagnet/config.rb"
+			],
+			[
+				"views-view-list--user-working-groups.tpl.php",
+				"web/sites/all/themes/dsagnet/templates/views-view-list--user-working-groups.tpl.php"
+			],
+			[
+				"_block--menu-menu-user-profile-menu",
+				"web/sites/all/themes/dsagnet/sass/components/menu/_block--menu-menu-user-profile-menu.scss"
+			],
+			[
+				"_block--menu-menu-user-profile-menu.scss",
+				"web/sites/all/themes/dsagnet/.sass-cache/bf2b0b8c9181b07584d88a40d923acfb21fe99d6/_block--menu-menu-user-profile-menu.scssc"
+			],
+			[
+				"1875",
+				"web/sites/all/scripts/1875.sh"
+			],
+			[
+				"menu_link.theme.inc",
+				"web/sites/all/themes/dsagnet/theme/menu_link.theme.inc"
+			],
+			[
+				"index.php",
+				"web/index.php"
+			],
+			[
+				"f_admin",
+				"web/sites/all/modules/features/f_administration_group/f_administration_group.module"
+			],
+			[
+				"sites/all/themes/dsagnet/panels/layouts/multi_row/multi-row.tpl.php",
+				"web/sites/all/themes/dsagnet/panels/layouts/multi_row/multi-row.tpl.php"
+			],
+			[
+				"views-view-list.tpl.php",
+				"web/sites/all/modules/contrib/views/theme/views-view-list.tpl.php"
+			],
+			[
+				"sites/all/themes/dsagnet/templates/views-view-list--user-working-groups.tpl.php",
+				"web/sites/all/themes/dsagnet/templates/views-view-list--user-working-groups.tpl.php"
+			],
+			[
+				"settings-local",
+				"web/sites/default/settings-local.php"
+			],
+			[
+				"1875.sh",
+				"web/sites/all/scripts/1875.sh"
+			],
+			[
+				"1903",
+				"web/sites/all/scripts/1903.sh"
+			],
+			[
+				"2448",
+				"docroot/sites/all/scripts/2448.drush"
+			],
+			[
+				"verlagimport",
+				"docroot/sites/all/modules/custom/book_pages/verlag_csv_import/verlag_csv_import.module"
+			],
+			[
+				"batch_ex",
+				"docroot/sites/all/modules/contrib/examples/batch_example/batch_example.module.dist"
+			],
+			[
+				"batchemodnew",
+				"docroot/sites/all/modules/contrib/examples/batch_example/batch_example.module.new"
+			],
+			[
+				"batchexa",
+				"docroot/sites/all/modules/contrib/examples/batch_example/batch_example.info"
+			],
+			[
+				"gaultmisetting",
+				"docroot/sites/gaultmillau.de/settings.php"
+			],
+			[
+				"verlag_data.module",
+				"docroot/sites/all/modules/custom/book_pages/verlag_data/verlag_data.module"
+			],
+			[
+				"module.inc",
+				"docroot/includes/module.inc"
+			],
+			[
+				"token",
+				"docroot/includes/token.inc"
+			],
+			[
+				"pathauto",
+				"docroot/sites/all/modules/contrib/pathauto/pathauto.inc"
+			],
+			[
+				"auszeichungen",
+				"docroot/sites/all/themes/gaultmillau/templates/views-view--auszeichungen.tpl.php"
+			],
+			[
+				"auszeichnu",
+				"docroot/sites/all/themes/gaultmillau/templates/views-view-field--auszeichungen--field-auszeichnung-restaurant.tpl.php"
+			],
+			[
+				"gaultmillau/templates/views-view-unformatted--auszeichungen.tpl.php",
+				"docroot/sites/all/themes/gaultmillau/templates/views-view-unformatted--auszeichungen.tpl.php"
+			],
+			[
+				"verlag_csv_bilder.inc",
+				"docroot/sites/all/modules/custom/book_pages/verlag_csv_import/verlag_csv_bilder.inc"
+			],
+			[
+				"verlag_modify.module",
+				"docroot/sites/all/modules/custom/book_pages/verlag_modify/verlag_modify.module"
+			],
+			[
+				"htaccess",
+				"docroot/.htaccess"
+			],
+			[
+				"docroot/.ht",
+				"docroot/.htaccess"
+			],
+			[
+				"verlag_csv_import.module",
+				"docroot/sites/all/modules/custom/book_pages/verlag_csv_import/verlag_csv_import.module"
+			],
+			[
+				"sites/all/themes/gaultmillau/templates/block--formblock--user_register.tpl.php",
+				"docroot/sites/all/themes/gaultmillau/templates/block--formblock--user_register.tpl.php"
+			],
+			[
+				"verlagcsvim",
+				"docroot/sites/all/modules/custom/book_pages/verlag_csv_import/verlag_csv_import.module"
+			],
+			[
+				"verlag_modify/verlag_modify.module",
+				"docroot/sites/all/modules/custom/book_pages/verlag_modify/verlag_modify.module"
+			],
+			[
+				"gaulttemp",
+				"docroot/sites/all/themes/gaultmillau/template.php"
+			],
+			[
+				"templ",
+				"docroot/themes/bartik/template.php"
+			],
+			[
+				"gaulttemplate.php",
+				"docroot/sites/all/themes/gaultmillau/template.php"
+			],
+			[
+				"verlag_csv_import",
+				"docroot/sites/all/modules/custom/book_pages/verlag_csv_import/verlag_csv_import.module"
+			],
+			[
+				"field_sql_storage.module",
+				"docroot/modules/field/modules/field_sql_storage/field_sql_storage.module"
+			],
+			[
+				"node-wein",
+				"docroot/sites/all/themes/gaultmillau/templates/node--wein.tpl.php"
+			],
+			[
+				"fieldtpl",
+				"docroot/sites/all/themes/gaultmillau/templates/field.tpl.php"
+			],
+			[
+				"node--weign",
+				"docroot/sites/all/themes/gaultmillau/templates/node--weingut.tpl.php"
+			],
+			[
+				"node-re",
+				"docroot/sites/all/themes/gaultmillau/templates/node--restaurant.tpl.php"
+			],
+			[
+				"node--h",
+				"docroot/sites/all/themes/gaultmillau/templates/node--hotel.tpl.php"
+			],
+			[
+				"2455",
+				"docroot/sites/all/scripts/2455.sh"
+			],
+			[
+				"2448.drush",
+				"docroot/sites/all/scripts/2448.drush"
+			],
+			[
+				"verlagbilder",
+				"docroot/sites/all/modules/custom/book_pages/verlag_csv_import/verlag_csv_bilder.inc"
+			],
+			[
+				"gaultmillau/settings-",
+				"docroot/sites/gaultmillau.de/settings-local.php"
+			],
+			[
+				"gaultmillau/settinglo",
+				"docroot/sites/gaultmillau.de/settings-local.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "talk",
+		"selected_items":
+		[
+			[
+				"talk",
+				"~/Documents/talk-using-composer-drupal-8-modules.sublime-project"
+			],
+			[
+				"",
+				"~/Documents/geranova.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 72.0,
+		"last_filter": "f_addressbook_redirect",
+		"selected_items":
+		[
+			[
+				"f_addressbook_redirect",
+				"f_addressbook_mitgliedsfirma_redirect"
+			],
+			[
+				"f_addressbook_menu_local_tasks_alter",
+				"f_addressbook_menu_local_tasks_alter"
+			],
+			[
+				"theme_menu",
+				"theme_menu_link"
+			],
+			[
+				"ag_mail_send_mail",
+				"ag_mail_send_mail"
+			],
+			[
+				"db_chang",
+				"db_change_field"
+			],
+			[
+				"hook_pathauto_alias_alter",
+				"hook_pathauto_alias_alter"
+			],
+			[
+				"gaultmillau_preprocess_node",
+				"gaultmillau_preprocess_node"
+			],
+			[
+				"ftp_connect",
+				"drupal_ftp_connect"
+			],
+			[
+				"_vapi_bilder_import",
+				"_vapi_bilder_import"
+			],
+			[
+				"file_copy",
+				"file_copy"
+			]
+		],
+		"width": 760.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/home/michael/workspace/d8-template-color-extractor/web/modules/custom/color_extractor"
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 350.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

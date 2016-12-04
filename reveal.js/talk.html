@@ -38,6 +38,8 @@
 
 		<div class="reveal">
 
+			<!-- Start out with "happy holiday pictures" in flickr slideshow -->
+
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section data-background="ef-logo-freigestellt.png">
@@ -45,13 +47,16 @@
 					<h3>Join the PHP community</h3>
 					<p>
 						Michael Lenahan
-						<br>
+					</p>
+				</section>
+
+				<section>
 						Drupal Developer at <a href="https://erdfisch.de/">erdfisch</a> in Heidelberg, Germany
 						<br>
 						michaellenahan on <a href="https://www.drupal.org/u/michaellenahan">drupal.org</a> and <a href="https://github.com/michaellenahan">github</a>
 						<br>
 						<a href="https://twitter.com/mcaleaa">@mcaleaa</a> on twitter
-					</p>
+						<img src="images/erdfisch.png">
 				</section>
 
 				<section>
@@ -69,6 +74,45 @@
 					<aside class="notes">
 					</aside>
 				</section>
+
+<!-- Family meme -->
+
+				<section data-background="images/drupalcon-dublin-friday-feeling-1.jpg">
+					<h2>Family</h2>
+					<aside class="notes">
+						At this time of year we think about family.
+					</aside>
+				</section>
+
+<!-- 				<section data-background="images/drupalcon-dublin-friday-feeling-2.jpg" data-background-transition="fade">
+					<h2>Family</h2>
+					<aside class="notes">
+					</aside>
+				</section>
+ -->
+<!-- Burda, Sheraton, Weston -->
+<!-- We're getting nostalgic -->
+<!-- Trip down memory lane -->
+
+<!-- Family life can be very comfortable -->
+				<section data-background="images/family-mouse.jpg" data-background-transition="fade">
+					<!-- <h2>Family</h2> -->
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="images/family-mouse-break-free.jpg" data-background-transition="fade">
+					<!-- <h2>Family</h2> -->
+					<aside class="notes">
+					</aside>
+				</section>
+<!-- But sometimes you just want to take a holiday from drupal -->
+
+<!-- So that's what we will do today -->
+<!-- We will go on a drupal hol-ee-day. -->
+<!-- We will visit a country called PHP-Land -->
+
+<!-- So. Off we go! -->
 
 				<section>
 					<h1>Use Composer in your own modules</h1>
@@ -90,7 +134,54 @@
 				<!-- What is composer -->
 				<!-- It's a command-line tool -->
 				<!-- in drupal we have drush -->
+				<section>
+					<h2>Jordi Boggiano, December 2011</h2>
+					<p>Composer was created by Nils Adermann and Jordi Boggiano</p>
+					<img src="images/composer-jordi-boggiano-what-is-composer.png">
+					<br>
+					<img src="images/composer-jordi-boggiano-what-is-packagist.png">
+				</section>
 
+				<section>
+					<h2>What is composer?</h2>
+					<p>It's a command-line tool</p>
+					<img src="images/composer-command-line.png">
+				</section>
+
+				<section>
+					<h2>What is composer?</h2>
+					<p>Composer is the command-line utility with which you install packages</p>
+					<pre><code class="hljs" data-trim contenteditable>
+					composer require "drupal/devel"
+					</code></pre>
+					<pre><code class="hljs" data-trim contenteditable>
+					drush dl devel
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>What is packagist?</h2>
+					<p>Packagist is the *default* package repository</p>
+					<img src="images/packagist.png">
+				</section>
+
+				<section>
+					<h2>What is packagist?</h2>
+					<p>Packagist is the *default* package repository</p>
+					<img src="images/drupal-org.png">
+				</section>
+
+				<section>
+					<h2>"kinda like" = "kind of like"</h2>
+					<p>Composer is "kinda like" drush</p>
+					<p>Packagist is "kinda like" drupal.org</p>
+					<p>Composer Packages are "kinda like" drupal modules or themes</p>
+				</section>
+
+				<section>
+					<h2>Drupal Specific</h2>
+					<p>Drupal-specific code means we don't share with other frameworks</p>
+				</section>
 				<!-- What is packagist -->
 				<!-- it is the default package repository -->
 				<!-- in drupal we have drupal.org -->
@@ -99,22 +190,11 @@
 
 				<!-- What does composer look like in Drupal? -->
 
+
 				<section>
 					<h2>Jordi Boggiano, December 2011</h2>
-					<img src="images/composer-jordi-boggiano-what-is-composer.png">
-					<br>
-					<img src="images/composer-jordi-boggiano-what-is-packagist.png">
-					<br>
+					<p>Composer was created by Nils Adermann and Jordi Boggiano</p>
 					<img src="images/composer-jordi-boggiano-drupal-typo3.png">
-					<aside class="notes">
-					Composer was created by:
-					<br>
-					Nils Adermann from Germany
-					https://twitter.com/naderman
-					<br>
-					Jordi Boggiano from Belgium
-					https://twitter.com/seldaek
-					</aside>
 				</section>
 
 				<!-- Color extractor example -->
@@ -130,6 +210,10 @@
 				<!-- Don't forget: this is exactly what we do on drupal.org -->
 
 				<section>
+					<img src="images/ldap-zend.png">
+				</section>
+
+				<section>
 				<h2>thephpleague.com</h2>
 				<img src="images/league.png">
 				</section>
@@ -139,7 +223,30 @@
 				<img src="images/league-our-packages.png">
 				</section>
 
+				<section>
+				<h2>thephpleague.com</h2>
+				<img src="images/league-our-packages-color-extractor.png">
+				</section>
 				<!-- https://github.com/thephpleague/color-extractor -->
+
+				<section>
+					<img src="images/composer-color-extractor-flickr-example.png">
+				</section>
+
+				<section>
+					<h2>this is plain php ...</h2>
+					<img src="images/composer-color-extractor-flickr-example.png">
+				</section>
+
+				<section>
+					<h2>this is *not* drupal ...</h2>
+					<img src="images/composer-color-extractor-flickr-example.png">
+				</section>
+
+				<section>
+					<h2>because we are on a drupal holiday</h2>
+					<img src="images/composer-color-extractor-flickr-example.png">
+				</section>
 
 				<section>
 					<h2>Color extractor example</h2>
@@ -163,14 +270,24 @@
 					</aside>
 				</section>
 
-				<!-- TODO Need a picture here of the final product -->
 				<section>
-					<img src="images/color-extractor-php-application.png">
+					<h2>three steps to php heaven</h2>
+					<p>Get the package</p>
+					<pre><code class="hljs" data-trim contenteditable>
+					composer require vendorname/packagename
+					</code></pre>
+					<p>Get the example code on github put it in index.php</p>
+					<pre><code class="hljs" data-trim contenteditable>
+					php -S localhost:8000
+					</code></pre>
+					<p>Play around with it and have fun</p>
+					<p>
 				</section>
 
-				<!-- Move this further down? -->
+				<!-- TODO Need a picture here of the final product -->
 				<section>
-					<img src="images/composer-color-extractor-flickr-example.png">
+					<p>https://github.com/michaellenahan/composer-color-extractor</p>
+					<img src="images/color-extractor-php-application.png">
 				</section>
 
 				<!-- That's what we will build now! -->
@@ -181,20 +298,19 @@
 				<!-- Maybe make a first slide with the yellow bit blacked out, an then with the yellow bit in -->
 
 				<section>
+					<h2>Color extractor in PHP</h2>
 					<p>Go into any directory you want and run this command:</p>
-					<p>composer require "league/color-extractor"</p>
-					<img src="images/color-extractor-php-composer-require.png" />
+					<pre><code class="hljs" data-trim contenteditable>
+					composer require "league/color-extractor"
+					</code></pre>
 				</section>
 
 				<section>
 					<h2>Color extractor in PHP</h2>
-					<small>So, what have you got now?</small>
-					<br>
-					<small>composer.json file</small>
-					<br>
-					<small>composer.lock file</small>
-					<br>
-					<small>vendor directory</small>
+					<p>So, what have you got now, in the root of your project?</p>
+					<p>composer.json file</p>
+					<p>composer.lock file</p>
+					<p>vendor directory</p>
 				</section>
 
 				<section>
@@ -205,6 +321,16 @@
 					<p class="fragment">smile and take a moment to admire the beautiful simplicity of what you just witnessed</p>
 				</section>
 
+				<section>
+					<h2>Color extractor in PHP</h2>
+					<p>You did this</p>
+					<pre><code class="hljs" data-trim contenteditable>
+					composer require "league/color-extractor"
+					</code></pre>
+					<p>You got this</p>
+					<img src="images/color-extractor-php-composer-json-require-line-only.png" />
+				</section>
+
 				<!-- Another slide to show beauty of: -->
 				<!-- composer require "league/color-extractor" -->
 				<!-- ... and the resulting composer.json -->
@@ -212,32 +338,85 @@
 				<!-- TODO pep this screenshot up with some arrows -->
 				<section>
 					<!-- <h2>Color extractor in PHP</h2> -->
-					<small>composer.lock file</small>
+					<h2>composer.lock file</h2>
 					<img src="images/composer-lock-file.png">
 				</section>
 
 				<section>
-					<p>Your vendor directory has the code from the package</p>
+					<h3>Your vendor directory has the code</h3>
 					<img src="images/color-extractor-php-vendor-dir.png">
 				</section>
 
+				<section>
+					<p>https://github.com/michaellenahan/composer-color-extractor</p>
+					<img src="images/composer-color-extractor-flickr-example.png">
+				</section>
 				<!-- So let's go build something -->
 
+				<!-- drupal code - let's start from the template -->
+<!-- https://github.com/drupal-composer/drupal-project -->
+<!-- TODO ^^^ Screenshot -->
+
+<!--				<section>
+					<img src="images/.png">
+				</section>
+-->
+
+<!-- drupal site:mode dev -->
+
 				<section>
-					<h2>Color extractor in Drupal 8</h2>
-					<small>Your projectroot/vendor directory has the code</small>
-					<img src="images/color-extractor-vendor-directory-1.png" />
+					<h1>So, what about Drupal?</h1>
 				</section>
 
 				<section>
-					<h2>Color extractor in Drupal 8</h2>
-					<small>... and here are the classes you will use in your module</small>
-					<img src="images/color-extractor-vendor-directory.png" />
+					<img src="images/drupal-org-composer-documentation.png">
 				</section>
 
 				<section>
+					<p>github.com/drupal-composer/drupal-project</p>
+					<img src="images/drupal-composer-template.png">
+				</section>
+
+<!-- 					<pre><code class="hljs" data-trim contenteditable>
+					composer require "league/color-extractor"
+					</code></pre>
+ -->
+
+				<section>
+					<h2>Drupal composer template</h2>
+					<!-- <pre><code class="hljs" data-trim contenteditable> -->
+composer create-project drupal-composer/drupal-project:8.x-dev YOUR-DIRECTORY-NAME --stability dev --no-interaction
+					<!-- </code></pre> -->
+				</section>
+
+<!-- 				&&&
+composer require league/color-extractor
+
+composer.json now has
+    "require": {
+        "composer/installers": "^1.2",
+        "drupal-composer/drupal-scaffold": "^2.2",
+        "cweagans/composer-patches": "~1.0",
+        "drupal/core": "~8.0",
+        "drush/drush": "~8.0",
+        "drupal/console": "~1.0",
+        "drupal/devel": "^1.0@alpha",
+        "league/color-extractor": "^0.3.1"
+    },
+
+enable my color_extractor module
+
+https://github.com/michaellenahan/d8-color-extractor-example
+ -->
+
+
+<!-- Inline representation of the command -->
+<!-- drupal generate:module  --module="color_extractor" --machine-name="color_extractor" --module-path="/modules/custom" --description="See: https://github.com/michaellenahan/using-composer-drupal-8-modules" --core="8.x" --package="Custom" --module-file --composer --root="/home/michael/workspace/d8-template-color-extractor/web" --learning --uri="http://default" -->
+
+
+				<section>
 					<h2>Color extractor in Drupal 8</h2>
-					<small>Install Drupal 8</small>
+					<small>Install Drupal 8 using the composer template</small>
 					<br>
 					<small>composer require "league/color-extractor:^0.3"</small>
 					<img src="images/color-extractor-composer-json-diff-1.png" />
@@ -251,77 +430,253 @@
 
 				<section>
 					<h2>Color extractor in Drupal 8</h2>
-					<small>... and here are the classes you will use in your module</small>
+					<small>... and here are the classes you will use in your custom module</small>
 					<img src="images/color-extractor-vendor-directory.png" />
 				</section>
 
 				<section>
-					<h2>Color extractor in Drupal 8</h2>
-					<img src="images/d8-color-extractor-1.png">
+					<h2>Create the custom module</h2>
+					<p>... using drupal console</p>
+					<pre><code class="hljs" data-trim contenteditable>
+drupal generate:module
+					</code></pre>
 				</section>
 
 				<section>
-					<h2>Color extractor in Drupal 8</h2>
-					<img src="images/d8-color-extractor-code.png">
+					<img src="images/drupal-generate-module.png">
+					???
 				</section>
 
 				<section>
-					<h2>Color extractor in Drupal 8</h2>
-					<img src="images/d8-color-extractor-2.png">
-				</section>
-
-<!--				<section>
-					<img src="images/.png">
-				</section>
--->
-
-<!-- Family meme -->
-				<section>
-					<img src="images/drupalcon-dublin-friday-feeling-1.png">
+					<!-- <h2>Color extractor in Drupal 8</h2> -->
+					<p>We'll use the D8 color_field module to store the colors</p>
+					<img src="images/custom-module-setup-node-with-extracted-colors-1.png">
 				</section>
 
 				<section>
-					<img src="images/drupalcon-dublin-friday-feeling-2.png">
+					<!-- <h2>Color extractor in Drupal 8</h2> -->
+					<p>We'll use the D8 color_field module to store the colors</p>
+					<img src="images/custom-module-setup-node-with-extracted-colors-2.png">
 				</section>
 
-<!-- Learning curve meme -->
-				<section data-background="images/pictures/cms-learning-curve-thats-me.png">
+				<section>
+					<!-- <h2>Color extractor in Drupal 8</h2> -->
+					<p>We'll use the D8 color_field module to store the colors</p>
+					<img src="images/custom-module-setup-node-with-extracted-colors-3.png">
 				</section>
 
-<!-- Related talks -->
+<!-- TODO TODO TODO -->
+<!-- Make sure you use the composer template version of the code -->
+<!-- http://d8-template-color-extractor.local/ -->
+<!-- not -->
+<!-- http://d8-color-extractor.local/ -->
+<!-- This section needs far more content! -->
+<!-- Take out some of the guff at the beginning and get to the point quicker -->
+<!-- So you can get the talk done in 40-45 Min -->
+<!-- Explain exactly in detail how the custom module works -->
 
-<!-- simplesamlphp-drupalcamp-munich-vincenzo-gambino.png -->
+<!-- You can download color_field with composer require -->
+<!-- https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies -->
 
-<!-- simplesamlphp-packagist.png -->
+<!-- composer require drupal/color_field "2.x-dev" -->
+			<section>
+				<h2>Download the color_field module</h2>
+				<p>... using composer require ...</p>
+				<pre><code class="hljs" data-trim contenteditable>
+composer require drupal/color_field "2.x-dev"
+				</code></pre>
+			</section>
 
+<!-- TODO Enable the color_field module -->
+
+<!-- custom-module-setup-enable-these-2-modules.png -->
+			<section>
+				<h2>Download the color_field module</h2>
+				<p>... using composer require ...</p>
+				<pre><code class="hljs" data-trim contenteditable>
+composer require drupal/color_field "2.x-dev"
+				</code></pre>
+			</section>
+
+<!-- images/custom-module-setup-add-color-field-to-article.png -->
+			<section>
+				<img src="images/custom-module-setup-add-color-field-to-article.png">
+			</section>
+
+<!-- custom-module-setup-add-color-field-to-article-1.png -->
+			<section>
+				<img src="images/custom-module-setup-add-color-field-to-article-1.png">
+			</section>
+<!-- custom-module-setup-add-color-field-to-article-2-make-sure-the-field-name-is-correct.png -->
+			<section>
+				<img src="images/custom-module-setup-add-color-field-to-article-2-make-sure-the-field-name-is-correct.png">
+			</section>
+<!-- custom-module-setup-add-color-field-to-article-3-unlimited-values.png -->
+			<section>
+				<img src="images/custom-module-setup-add-color-field-to-article-3-unlimited-values.png">
+			</section>
+
+<!-- custom-module-setup-set-color-field-widget-color-grid.png -->
+			<section>
+				<img src="images/custom-module-setup-set-color-field-widget-color-grid.png">
+			</section>
+
+<!-- got notice: -->
+<!-- Undefined indexhttps://creativecommons.org/licenses/by-nc-nd/2.0/: #requ NDired in Drupal\color_field\Plugin\Field\FieldWidget\ColorFieldWidgetDefault->formElement -->
+<!-- https://www.drupal.org/node/2642712 -->
+
+<!-- https://wiki.creativecommons.org/wiki/Best_practices_for_attribution -->
+<!-- Autumn Colours, Landgoed Voorstonden, Brummen, Netherlands - 1032 -->
+<!-- https://www.flickr.com/photos/hereistom/30533863645 -->
+<!-- https://creativecommons.org/licenses/by-nc-nd/2.0/ -->
+
+<!-- <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/hereistom/30533863645">Autumn Colours, Landgoed Voorstonden, Brummen, Netherlands - 1032</a>" by <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/hereistom/">Tom Jutte</a> is licensed under <a rel="nofollow" class="external text" href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC BY ND 2.0</a> -->
+
+<!-- custom-module-setup-add-color-field-to-article-5.png -->
+			<section>
+				<p>Create a node with an image</p>
+				<img src="images/custom-module-setup-add-color-field-to-article-5.png">
+			</section>
+
+<!-- TODO Add to readme that I am using this picture and its license -->
+
+<!-- custom-module-setup-add-image.png -->
+			<section>
+				<p>Create a node with an image</p>
+				<img src="images/custom-module-setup-add-image.png">
+			</section>
+
+<!-- Autumn Colours, Landgoed Voorstonden, Brummen, Netherlands - 1032 by Tom Jutte is licensed under CC BY-NC-ND 2.0 -->
+
+<!-- custom-module-setup-save-article-node-we-expect-color-field-to-be-populated.png -->
+			<section>
+				<p>When we save the node we expect the color fields to be populated ... because of our form submit callback</p>
+				<img src="images/custom-module-setup-save-article-node-we-expect-color-field-to-be-populated.png">
+			</section>
+
+
+<!-- <div style="padding: 1em; margin-bottom: 1em; border: 1px; background-color: #eee; width: 65%;">"<a rel="nofollow" class="external text" href="https://www.flickr.com/photos/hereistom/30533863645">Autumn Colours, Landgoed Voorstonden, Brummen, Netherlands - 1032</a>" by <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/hereistom/">Tom Jutte</a> is licensed under <a rel="nofollow" class="external text" href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC BY ND 2.0</a></div> -->
+
+<!-- custom-module-setup-delete-comment-field-it-just-gets-in-the-way.png -->
+
+<!-- custom-module-setup-delete-comment-field-it-just-gets-in-the-way-2.png -->
+
+<!-- custom-module-setup-node-with-extracted-colors.png -->
+
+<!-- All you need to do is include the classes from the composer package! -->
+
+<!-- custom-module-setup-code-1.png -->
+			<section>
+				<p>Here's the code</p>
+				<img src="images/custom-module-setup-code-1.png">
+			</section>
+<!-- custom-module-setup-code-2.png -->
+			<section>
+				<p>Here's the code</p>
+				<img src="images/custom-module-setup-code-2.png">
+			</section>
+
+<!-- custom-module-setup-code-2.png -->
+			<section>
+				<p>Here's the code</p>
+				<a href="https://github.com/michaellenahan/d8-color-extractor-example">https://github.com/michaellenahan/d8-color-extractor-example</a>
+			</section>
+
+<!-- 			<section>
+				<p>color_extractor.module</p>
+				<pre><code class="hljs" data-trim contenteditable>
+/**
+ * @file
+ * Contains color_extractor.module.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use League\ColorExtractor\Color;
+use League\ColorExtractor\ColorExtractor;
+use League\ColorExtractor\Palette;
+
+/**
+ * Implements hook_form_FORM_ID_alter() for the node_article_edit_form() form.
+ */
+function color_extractor_form_node_article_edit_form_alter(&$form, FormStateInterface &$form_state, $form_id) {
+  // foreach loop code copied from: menu_ui_form_node_form_alter().
+  foreach (array_keys($form['actions']) as $action) {
+    if ($action != 'preview' && isset($form['actions'][$action]['#type']) && $form['actions'][$action]['#type'] === 'submit') {
+      $form['actions'][$action]['#submit'][] = '_color_extractor_form_node_article_edit_form_submit';
+    }
+  }
+}
+
+/**
+ * Form submission handler.
+ *
+ * This expects you to have:
+ * - A field_image on the article content type.
+ * - A field_color on the article content type.
+ * field_color is from: https://www.drupal.org/project/color_field
+ */
+function _color_extractor_form_node_article_edit_form_submit($form, FormStateInterface $form_state) {
+  // Get the submitted node.
+  if ($node = $form_state->getFormObject()->getEntity()) {
+    /** @var $node Drupal\node\Entity\Node */
+    if ($node->hasField('field_image') && $node->hasField('field_color')) {
+      $image = $node->get('field_image')->entity->uri->value;
+      $palette = Palette::fromFilename($image);
+      $extractor = new ColorExtractor($palette);
+      // Get the 8 most representative colors.
+      $colors = $extractor->extract(8);
+      foreach ($colors as $key => $color) {
+        $hex_code = Color::fromIntToHex($color);
+        $node->field_color->appendItem($hex_code);
+      }
+      $node->save();
+    }
+  }
+}
+				</code></pre>
+			</section>
+ -->
+
+				<section>
+					<!-- <h2>Color extractor in Drupal 8</h2> -->
+					<img height="600" src="images/d8-color-extractor-code.png">
+				</section>
+
+
+<!-- How do you deploy this thing? -->
+<!-- What does the template give you? -->
+<!-- https://github.com/drupal-composer/drupal-project -->
+<!-- you get drupal console -->
+
+<!-- 				<section><h2>Related talks</h2></section>
 				<section>
 					<img src="images/asset-packagist-fago-ironcamp.png">
 				</section>
-
-				<section>
+ -->
+<!-- 				<section>
 					<img src="images/asset-packagist.png">
 				</section>
-
-
+ -->
 <!-- Other examples -->
+				<section><h1>Other examples of composer-based modules</h1></section>
 
 				<section>
 					<h2>faker</h2>
 					<img src="images/composer-faker-code.png">
 				</section>
 
-				<section>
+<!-- 				<section>
 					<h2>faker</h2>
 					<img src="images/composer-faker-d7-only.png">
 				</section>
-
+ -->
 				<section>
-					<h2>faker</h2>
+					<!-- <h2>faker</h2> -->
 					<img src="images/composer-faker-github.png">
 				</section>
 
 				<section>
-					<h2>faker</h2>
+					<!-- <h2>faker</h2> -->
 					<img src="images/composer-faker-output.png">
 				</section>
 
@@ -331,415 +686,24 @@
 				</section>
 
 				<section>
-					<h2>Related talk(s)</h2>
-					<p>
-use screenshot for simplesamlphp-drupalcamp-munich-vincenzo-gambino.png
-
-these talks were proposed:
-
-http://dcmuc16.drupalcamp.de/en/sessions/efficient-development-workflows-composer
-http://dcmuc16.drupalcamp.de/en/sessions/building-drupal-sites-composer
-					</p>
+					<h2>Many many other examples</h2>
+					<p>Drupal Commerce - addressfield</p>
+					<p>So much stuff in Drupal Core</p>
 				</section>
 
 				<section>
-					<h2>Composer and Packagist</h2>
-					<p>
-not just for core developers - also for "normal"* module developers
-
-* although actually I don't think we count as "normal"
-					</p>
-				</section>
-
-				<section data-background="images/pictures/GodfreyKneller-IsaacNewton-1689.jpg">
-					<h2>Clever Quote</h2>
-					<blockquote>
-						&ldquo;If I have seen further than others, it is by standing upon the shoulders of giants.&rdquo;
-					</blockquote>
-					<small>Sir Isaac Newton</small>
-					<small>This a copy of a painting by Sir Godfrey Kneller(1689). This copy was painted by Barrington Bramley. (http://www.newton.cam.ac.uk/art/portrait.html) [Public domain], via Wikimedia Commons</small>
+					<h1>Our family is growing</h1>
+					<h2>And it's getting better</h2>
+					<h2>Go to different conferences!</h2>
 				</section>
 
 				<section>
-					<h2>Learning curve</h2>
-					<small>
-http://www.codem0nk3y.com/2012/04/what-bugs-me-about-modx-and-why/cms-learning-curve/
-					</small>
-					<img src="images/pictures/cms-learning-curve.png" />
+					<h1>But stay with us too</h1>
+					<h2>Iceland</h2>
+					<h2>Frankfurt</h2>
+					<h2>Heidelberg</h2>
+					<h2>Schwerin</h2>
 				</section>
-
-				<section data-background="images/pictures/cms-learning-curve-thats-me.png">
-				</section>
-
-				<section data-background="images/pictures/cms-learning-curve-thats-me-on-a-good-day.png">
-				</section>
-
-				<section>
-					<h2>We are family - we need each other</h2>
-					<p>
-spiel about a drupal meetup vs a php meetup.
-drupal --- "og!" "omg i know!" --- "page manager and panels!" "omg yes you are so right!" --- friends for life.
-php --- hello i do drupal --- hello i do typo3 --- goodbye then --- goodbye
-					</p>
-				</section>
-
-				<section>
-					<h2>We are family - we need each other</h2>
-					<p>
-spiel about a drupal meetup vs a php meetup.
-drupal --- "og!" "omg i know!" --- "page manager and panels!" "omg yes you are so right!" --- friends for life.
-php --- hello i do drupal --- hello i do typo3 --- goodbye then --- goodbye
-					</p>
-				</section>
-
-				<section>
-					<h2>Composer in Drupal 8</h2>
-					<p>
-						So, what is this "composer" thing anyway?
-					</p>
-				</section>
-
-				<section>
-					<h2>Composer in Drupal 8</h2>
-					<p>
-						picture of d8 default installation
-						what are:
-						composer.json
-						composer.lock
-						vendor
-					</p>
-				</section>
-
-				<section>
-					<h2>Composer in Drupal 8</h2>
-					<!-- <img height="480" src="images/commonmark-composer-json-1.png" /> -->
-					<img src="images/commonmark-composer-json-1-960x500.png" />
-				</section>
-
-				<section data-background="images/pictures/colors-sunset-end.jpg">
-					<h2>Bright new day</h2>
-				</section>
-
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
-
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
-
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment fade-up">fade-up (also down, left and right!)</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p>Highlight <span class="fragment highlight-red">red</span> <span class="fragment highlight-blue">blue</span> <span class="fragment highlight-green">green</span></p>
-					</section>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
-
-				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="ef-logo-freigestellt.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
-					</section>
-					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-						<h2>... and GIFs!</h2>
-					</section>
-				</section>
-
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code class="hljs">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
-
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code class="hljs" data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe data-src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
-					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
-					</ul>
-				</section>
-
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
-				</section>
-
 			</div>
 
 		</div>
