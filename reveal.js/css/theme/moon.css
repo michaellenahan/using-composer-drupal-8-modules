@@ -20,6 +20,18 @@ html * {
     left: 50px;
 }
 
+#header-left {
+/*    position: absolute;
+    top: 50px;
+    left: 50px;
+*/
+  /*padding-top: 30px;*/
+  /*padding-left: 20px;*/
+}
+
+#header-right {
+}
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
