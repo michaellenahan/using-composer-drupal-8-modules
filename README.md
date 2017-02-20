@@ -14,7 +14,7 @@ The slides were created using [reveal.js](https://github.com/hakimel/reveal.js).
 
 The pdf version was generated using [decktape](https://github.com/astefanutti/decktape).
 
-Please feel free to adapt and re-use these slides, they are freely licensed: see LICENSE.
+Please feel free to adapt and re-use these slides, see LICENSE.
 
 To get started, clone this repository and then open reveal.js/talk.html in your browser.
 
